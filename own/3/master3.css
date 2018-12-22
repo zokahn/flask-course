@@ -1,0 +1,11 @@
+h1{
+  font-family: 'Inconsolata', monospace;
+
+}
+
+p{
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
