@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>html assessment 2 forms!</title>
+  </head>
+  <body>
+    <h1>Puppy adoption page</h1>
+    <h3>Please enter your information to adopt a puppy and we'll email you back.</h3>
+    <p>Please note: First Name, Last Name, Password, and Email are required</p>
+    <form method="get">
+      <label for="fname">First Name:</label>
+      <input id="fname" type="text" name="fname" placeholder="First Name">
+      <label for="lname">Last Name:</label>
+      <input id="lname" type="text" name="lname" placeholder="Last Name">
+      <br>
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email" placeholder="email">
+      <label for="passwd">Password:</label>
+      <input id="passwd" type="password" name="passwd" value="">
+      <p>Are you over the age of 18?</p>
+      <label for="over18">Yes:</label>
+      <input id="yes"type="radio" name="over18" value="Yes">
+      <label for="over18">No:</label>
+      <input id="no"type="radio" name="over18" value="No">
+
+      <p>Do you have a Creditcard or Paypal?</p>
+      <select name="paymethod">
+        <option value="Creditcard">Creditcard</option>
+        <option value="paypal">Paypal</option>
+      </select>
+      <br>
+      <input type="submit" name="submit" value="Submit Feedback">
+    </form>
+  </body>
+</html>
